@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mihir Mesia" />
+    <meta name="description" content="Projects Page for Mihir Mesia" />
+
+    <!--main-css-->
+    <link rel="stylesheet" href="./Assests/CSS/projects.css" />
+    <title>Mihir's Project Page</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="container">
+        <h1 class="navbar-brand">Mihir Mesia</h1>
+        <div
+          class="navbar-collapse collapse"
+          id="navbarSupportedContent"
+          style=""
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <h2 class="title">My Projects</h2>
+      <div class="row">
+        <div class="col projectsContainer">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Assests/Images/covid_track.png"
+              class="card-img-top"
+              alt="covid_tracker"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Corona Tracker</h5>
+              <p class="card-text">
+                Gives a real time data and statistics of COVID-19 cases
+                worldwide
+              </p>
+              <a href="https://github.com/Mihir22" class="btn btn-primary"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="col projectsContainer">
+          <div class="card" style="width: 18rem">
+            <img
+              src="./Assests/Images/ml.jpeg"
+              class="card-img-top"
+              alt="ml Image"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Music Genre Classification</h5>
+              <p class="card-text">
+                Applied machine learning and neural networks on the unique
+                features of music audio, to classify them into their respective
+                genres.
+              </p>
+              <a href="https://github.com/Mihir22" class="btn btn-primary"
+                >Github</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <h3 class="sec-title">More to be added</h3>
+  </body>
+</html>

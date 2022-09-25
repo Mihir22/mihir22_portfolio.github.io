@@ -1,0 +1,152 @@
+.Introduction {
+  background: #fffdd0;
+  padding-bottom: 300px;
+  padding-top: 50px;
+  max-height: 700px;
+}
+.hero-container {
+  padding-bottom: 100px;
+  padding-top: 80px;
+}
+
+.profileImage {
+  width: 80%;
+  height: auto;
+  border-radius: 80%;
+  border: 4px solid #ffd700;
+  overflow: hidden;
+}
+
+.intro_text {
+  font-size: 1.3em;
+}
+
+.education {
+  background: #FFFFF;
+  padding-top: 50px;
+  max-height: auto;
+}
+
+.inner-width {
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 40px;
+}
+
+.sec-title {
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+  font-size: 36px;
+  padding-bottom: 20px;
+  color: #111;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: calc(50% - 20px);
+  background-color: #f1d781;
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 30px;
+  position: relative;
+}
+
+.block::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 120%;
+  background-color: #ddd;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.block::after {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #ff0000;
+  left: -28px;
+  top: 30px;
+  border-radius: 60%;
+}
+
+.block h3 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+
+.block p {
+  font-size: 15px;
+  color: #444;
+}
+
+.skills_sec {
+  padding: 50px;
+  background: #fffdd0;
+}
+.skills {
+  padding: 50px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.skill {
+  width: calc(50% - 20px);
+  margin: 15px 0;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-bar {
+  height: 3px;
+  background-color: #ddd;
+  margin-top: 14px;
+  position: relative;
+}
+
+.skill-bar::after {
+  content: "";
+  position: absolute;
+  height: 6px;
+  background-color: green;
+  bottom: 0;
+}
+
+.python:after {
+  width: 90%;
+}
+
+.c:after {
+  width: 60%;
+}
+
+.js:after {
+  width: 60%;
+}
+
+.ml:after {
+  width: 70%;
+}
+
+.mysql:after {
+  width: 75%;
+}
+
+.react:after {
+  width: 80%;
+}

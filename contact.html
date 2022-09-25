@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mihir Mesia" />
+    <meta name="description" content="Contact for Mihir Mesia" />
+    <!--main-css-->
+    <link rel="stylesheet" href="./Assests/CSS/contact.css" />
+    <title>Mihir's Portfolio Website</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body style="background: #dfe1ee">
+    <nav class="navbar sticky-top navbar-expand-lg bg-dark navbar-dark">
+      <button
+        class="navbar-toggler collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="container">
+        <h2 class="navbar-brand">Mihir Mesia</h2>
+        <div
+          class="navbar-collapse collapse"
+          id="navbarSupportedContent"
+          style=""
+        >
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about_me.html">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h1 class="sec-title">Contact Me</h1>
+      <div class="inner-width">
+        <div class="social-info">
+          <div class="item">
+            <a href="https://github.com/Mihir22" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://twitter.com/MihirMesia" target="_blank">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a
+              href="https://www.linkedin.com/in/mihir-mesia-950863168/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+
+          <div class="item">
+            <a href="https://www.instagram.com/_mihir96_/" target="_blank">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <form action="#" id="contact-form">
+          <input type="text" id="nameZone" placeholder="Your Full Name" />
+          <input type="email" id="emailZone" placeholder="Your Email" />
+          <input type="text" id="subjectZone" placeholder="Subject" />
+          <textarea id="messageZone" placeholder="Message"></textarea>
+          <input
+            type="submit"
+            value="Send Message"
+            onclick="formReset()"
+            class="btn"
+          />
+        </form>
+      </div>
+    </div>
+    <script src="./Assests/JS/file.js"></script>
+  </body>
+</html>
