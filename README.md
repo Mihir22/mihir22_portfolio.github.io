@@ -28,7 +28,8 @@ The objective is to build a personal homepage which illustrates personal and pro
 - JavaScript
 - Class Link
 
-## [CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2022/)
+## Class Link
+### [CS5610 Web Development Course](https://johnguerra.co/classes/webDevelopment_fall_2022/)
 
 ## Screenshots
 ![Screen Shot 2022-09-26 at 11 42 07 AM](https://user-images.githubusercontent.com/44001096/192358098-73685429-893a-4ac1-b562-06fd19dce101.png)
