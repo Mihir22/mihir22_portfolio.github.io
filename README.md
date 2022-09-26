@@ -2,8 +2,8 @@
 
 ## Author: Mihir Mesia
 ## Website Link [Mihir's Portfolio](https://mihir22.github.io/mihir22_portfolio.github.io/).
-## Website Link ['Google slides link](https://docs.google.com/presentation/d/1cDHVyQ0tkJ3fqRvdGKaEqoXW54DswT1IAozDynAfppc/edit?usp=sharing)
-## Youtube Link ['Mihir's Portfolio](https://www.youtube.com/watch?v=524Mo4zkcPI)
+## Website Link [Google slides link](https://docs.google.com/presentation/d/1cDHVyQ0tkJ3fqRvdGKaEqoXW54DswT1IAozDynAfppc/edit?usp=sharing)
+## Youtube Link [Mihir's Portfolio](https://www.youtube.com/watch?v=524Mo4zkcPI)
 ## Project Objective: 
 The objective is to build a personal homepage which illustrates personal and professional information about myself. This is a project for CS5610 Web Development class at Northeastern University. This project is supposed to be build using html, CSS, Bootstrap and JavaScript. The project also allow us to get familiar with eslint and prettier. The website is W3C Compliant and shows the use of HTML/CSS and JavaScript together.
 
